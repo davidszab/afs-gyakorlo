@@ -1,0 +1,56 @@
+/* Add CSS styles here! */
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --paradise-pink: #ef476fff;
+    --orange-yellow-crayola: #ffd166ff;
+    --caribbean-green: #06d6a0ff;
+    --blue-ncs: #118ab2ff;
+    --midnight-green-eagle-green: #073b4cff;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+}
+
+.flex {
+    display: flex;
+}
+
+.content {
+    width: 100%;
+    max-width: 750px;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 1em;
+    position: relative;
+    background-color: white;
+    box-shadow: 10px 10px 45px 0px rgba(0, 0, 0, 0.4);
+}
+
+.task-wrapper {
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bottom-panel {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}

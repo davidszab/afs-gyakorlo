@@ -1,0 +1,19 @@
+.selected {
+    background-color: cadetblue;
+}
+
+.buttonContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.button {
+    font-size: 1.75rem;
+    padding: 0.25rem;
+    min-width: 15rem;
+}
+
+.button + .button {
+    margin-top: 1rem;
+}

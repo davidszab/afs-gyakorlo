@@ -1,0 +1,35 @@
+.table {
+    width: 85%;
+    margin: 0 auto;
+    font-size: 1.2rem;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid black;
+    padding: 0.3rem;
+}
+
+.stars {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 4rem 0;
+    color: gold;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+.buttonDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+}
+
+.buttonDiv button {
+    font-size: 1.5rem;
+    padding: 0.25rem 2rem;
+}
